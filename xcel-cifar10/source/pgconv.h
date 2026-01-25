@@ -10,7 +10,7 @@ const uint64 m1 = 6148914691236517205;
 const uint64 m2 = 3689348814741910323;
 const uint64 m4 = 1085102592571150095;
 
-inline uint8 compute_engine_64(uint64 b, uint64 w)
+inline uint8 compute_engine_64(uint64 b, uint64 w)//xnor
 {
 #pragma HLS latency max=1
     uint64 x = b^w;
@@ -53,7 +53,7 @@ void binary_conv3x3_tile(
 		int16 msb_outputs[CHANNEL_OUT_T][WIDTH][WIDTH],
 
 		int16 comparator[CHANNEL_OUT_T][WIDTH][WIDTH],
-		const FIX_WT threshold[OUT_CHANNEL_PARALLELISM],
+		const FIX_WT threshold[OUT_CHANNEL_PARALLELISM],//阈值
         bool switch_on,
 
 		int c_in,
@@ -154,7 +154,7 @@ inline void pg_conv3x3_tile(
         lsb_outputs, // comparator
         threshold,
         switch_on,
-        c_in, in_channels, H_fmap_out);
+        c_in, in_channels, H_fmap_out);//1,32,32
 
     switch_on = 0;
     // bypass some lsb binary conv

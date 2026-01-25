@@ -7,7 +7,7 @@ using namespace std;
 //  Top Function 
 //--------------------
 void FracNet_T(
-		uint64 image[3][32][32],
+		uint64 image[3][32][32],//R=8;G=8;B=8,且r=8
 		float output[10]
 )
 {
@@ -19,7 +19,7 @@ void FracNet_T(
 #pragma HLS ALLOCATION instances=bn_relu_shortcut limit=1 function
 #pragma HLS ALLOCATION instances=quant_and_pack limit=1 function
 
-	uint64 msb_fmap[3][WIDTH][WIDTH];
+	uint64 msb_fmap[3][WIDTH][WIDTH];//每个元素为32bit，分辨率为8
 #pragma HLS ARRAY_PARTITION variable=msb_fmap complete dim=1
 #pragma HLS ARRAY_PARTITION variable=lsb_fmap complete dim=1
 
