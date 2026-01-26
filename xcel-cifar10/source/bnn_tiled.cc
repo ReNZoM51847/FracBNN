@@ -6,7 +6,7 @@ using namespace std;
 //--------------------
 //  Top Function 
 //--------------------
-void FracNet_T(
+void FracNet_T(//FracBNN
 		uint64 image[3][32][32],//R=8;G=8;B=8,且r=8
 		float output[10]
 )
