@@ -1,0 +1,1458 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (lin64) Build 2708876 Wed Nov  6 21:39:14 MST 2019
+| Date         : Sat Mar  7 19:00:52 2026
+| Host         : renzom-virtual-machine running 64-bit Ubuntu 18.04.6 LTS
+| Command      : report_drc -file design_1_wrapper_drc_opted.rpt -pb design_1_wrapper_drc_opted.pb -rpx design_1_wrapper_drc_opted.rpx
+| Design       : design_1_wrapper
+| Device       : xczu5eg-sfvc784-1-e
+| Speed File   : -1
+| Design State : Synthesized
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 284
++--------+----------+------------------------+------------+
+| Rule   | Severity | Description            | Violations |
++--------+----------+------------------------+------------+
+| DPIP-2 | Warning  | Input pipelining       | 126        |
+| DPOP-3 | Warning  | PREG Output pipelining | 50         |
+| DPOP-4 | Warning  | MREG Output pipelining | 108        |
++--------+----------+------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+DPIP-2#1 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U567/FracNet_T_mac_mulcEy_DSP48_5_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U567/FracNet_T_mac_mulcEy_DSP48_5_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#2 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U567/FracNet_T_mac_mulcEy_DSP48_5_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U567/FracNet_T_mac_mulcEy_DSP48_5_U/p/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#3 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U568/FracNet_T_mac_mulcEy_DSP48_5_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U568/FracNet_T_mac_mulcEy_DSP48_5_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#4 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U568/FracNet_T_mac_mulcEy_DSP48_5_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U568/FracNet_T_mac_mulcEy_DSP48_5_U/p/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#5 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U569/FracNet_T_mac_mulcEy_DSP48_5_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U569/FracNet_T_mac_mulcEy_DSP48_5_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#6 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U569/FracNet_T_mac_mulcEy_DSP48_5_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U569/FracNet_T_mac_mulcEy_DSP48_5_U/p/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#7 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U570/FracNet_T_mac_mulcEy_DSP48_5_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U570/FracNet_T_mac_mulcEy_DSP48_5_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#8 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U570/FracNet_T_mac_mulcEy_DSP48_5_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U570/FracNet_T_mac_mulcEy_DSP48_5_U/p/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#9 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U571/FracNet_T_mac_mulcEy_DSP48_5_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U571/FracNet_T_mac_mulcEy_DSP48_5_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#10 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U571/FracNet_T_mac_mulcEy_DSP48_5_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U571/FracNet_T_mac_mulcEy_DSP48_5_U/p/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#11 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U572/FracNet_T_mac_mulcEy_DSP48_5_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U572/FracNet_T_mac_mulcEy_DSP48_5_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#12 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U572/FracNet_T_mac_mulcEy_DSP48_5_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U572/FracNet_T_mac_mulcEy_DSP48_5_U/p/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#13 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U573/FracNet_T_mac_mulcEy_DSP48_5_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U573/FracNet_T_mac_mulcEy_DSP48_5_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#14 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U573/FracNet_T_mac_mulcEy_DSP48_5_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U573/FracNet_T_mac_mulcEy_DSP48_5_U/p/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#15 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U574/FracNet_T_mac_mulcEy_DSP48_5_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U574/FracNet_T_mac_mulcEy_DSP48_5_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#16 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U574/FracNet_T_mac_mulcEy_DSP48_5_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U574/FracNet_T_mac_mulcEy_DSP48_5_U/p/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#17 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U575/FracNet_T_mac_mulcEy_DSP48_5_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U575/FracNet_T_mac_mulcEy_DSP48_5_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#18 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U575/FracNet_T_mac_mulcEy_DSP48_5_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U575/FracNet_T_mac_mulcEy_DSP48_5_U/p/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#19 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U576/FracNet_T_mac_mulcEy_DSP48_5_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U576/FracNet_T_mac_mulcEy_DSP48_5_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#20 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U576/FracNet_T_mac_mulcEy_DSP48_5_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U576/FracNet_T_mac_mulcEy_DSP48_5_U/p/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#21 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U577/FracNet_T_mac_mulcEy_DSP48_5_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U577/FracNet_T_mac_mulcEy_DSP48_5_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#22 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U577/FracNet_T_mac_mulcEy_DSP48_5_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U577/FracNet_T_mac_mulcEy_DSP48_5_U/p/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#23 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U578/FracNet_T_mac_mulcEy_DSP48_5_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U578/FracNet_T_mac_mulcEy_DSP48_5_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#24 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U578/FracNet_T_mac_mulcEy_DSP48_5_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U578/FracNet_T_mac_mulcEy_DSP48_5_U/p/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#25 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U579/FracNet_T_mac_mulcEy_DSP48_5_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U579/FracNet_T_mac_mulcEy_DSP48_5_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#26 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U579/FracNet_T_mac_mulcEy_DSP48_5_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U579/FracNet_T_mac_mulcEy_DSP48_5_U/p/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#27 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U580/FracNet_T_mac_mulcEy_DSP48_5_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U580/FracNet_T_mac_mulcEy_DSP48_5_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#28 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U580/FracNet_T_mac_mulcEy_DSP48_5_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U580/FracNet_T_mac_mulcEy_DSP48_5_U/p/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#29 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U581/FracNet_T_mac_mulcEy_DSP48_5_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U581/FracNet_T_mac_mulcEy_DSP48_5_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#30 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U581/FracNet_T_mac_mulcEy_DSP48_5_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U581/FracNet_T_mac_mulcEy_DSP48_5_U/p/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#31 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U582/FracNet_T_mac_mulcEy_DSP48_5_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U582/FracNet_T_mac_mulcEy_DSP48_5_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#32 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U582/FracNet_T_mac_mulcEy_DSP48_5_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U582/FracNet_T_mac_mulcEy_DSP48_5_U/p/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#33 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U599/FracNet_T_mac_mulcEy_DSP48_5_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U599/FracNet_T_mac_mulcEy_DSP48_5_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#34 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U599/FracNet_T_mac_mulcEy_DSP48_5_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U599/FracNet_T_mac_mulcEy_DSP48_5_U/p/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#35 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U600/FracNet_T_mac_mulcGz_DSP48_7_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U600/FracNet_T_mac_mulcGz_DSP48_7_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#36 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U600/FracNet_T_mac_mulcGz_DSP48_7_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U600/FracNet_T_mac_mulcGz_DSP48_7_U/p/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#37 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U601/FracNet_T_mac_mulcGz_DSP48_7_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U601/FracNet_T_mac_mulcGz_DSP48_7_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#38 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U601/FracNet_T_mac_mulcGz_DSP48_7_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U601/FracNet_T_mac_mulcGz_DSP48_7_U/p/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#39 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U602/FracNet_T_mac_mulcGz_DSP48_7_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U602/FracNet_T_mac_mulcGz_DSP48_7_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#40 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U602/FracNet_T_mac_mulcGz_DSP48_7_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U602/FracNet_T_mac_mulcGz_DSP48_7_U/p/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#41 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U603/FracNet_T_mac_mulcGz_DSP48_7_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U603/FracNet_T_mac_mulcGz_DSP48_7_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#42 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U603/FracNet_T_mac_mulcGz_DSP48_7_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U603/FracNet_T_mac_mulcGz_DSP48_7_U/p/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#43 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U604/FracNet_T_mac_mulcGz_DSP48_7_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U604/FracNet_T_mac_mulcGz_DSP48_7_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#44 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U604/FracNet_T_mac_mulcGz_DSP48_7_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U604/FracNet_T_mac_mulcGz_DSP48_7_U/p/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#45 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U605/FracNet_T_mac_mulcGz_DSP48_7_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U605/FracNet_T_mac_mulcGz_DSP48_7_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#46 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U605/FracNet_T_mac_mulcGz_DSP48_7_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U605/FracNet_T_mac_mulcGz_DSP48_7_U/p/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#47 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U606/FracNet_T_mac_mulcGz_DSP48_7_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U606/FracNet_T_mac_mulcGz_DSP48_7_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#48 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U606/FracNet_T_mac_mulcGz_DSP48_7_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U606/FracNet_T_mac_mulcGz_DSP48_7_U/p/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#49 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U607/FracNet_T_mac_mulcGz_DSP48_7_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U607/FracNet_T_mac_mulcGz_DSP48_7_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#50 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U607/FracNet_T_mac_mulcGz_DSP48_7_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U607/FracNet_T_mac_mulcGz_DSP48_7_U/p/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#51 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U608/FracNet_T_mac_mulcGz_DSP48_7_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U608/FracNet_T_mac_mulcGz_DSP48_7_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#52 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U608/FracNet_T_mac_mulcGz_DSP48_7_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U608/FracNet_T_mac_mulcGz_DSP48_7_U/p/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#53 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U609/FracNet_T_mac_mulcGz_DSP48_7_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U609/FracNet_T_mac_mulcGz_DSP48_7_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#54 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U609/FracNet_T_mac_mulcGz_DSP48_7_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U609/FracNet_T_mac_mulcGz_DSP48_7_U/p/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#55 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U610/FracNet_T_mac_mulcGz_DSP48_7_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U610/FracNet_T_mac_mulcGz_DSP48_7_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#56 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U610/FracNet_T_mac_mulcGz_DSP48_7_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U610/FracNet_T_mac_mulcGz_DSP48_7_U/p/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#57 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U611/FracNet_T_mac_mulcGz_DSP48_7_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U611/FracNet_T_mac_mulcGz_DSP48_7_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#58 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U611/FracNet_T_mac_mulcGz_DSP48_7_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U611/FracNet_T_mac_mulcGz_DSP48_7_U/p/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#59 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U612/FracNet_T_mac_mulcGz_DSP48_7_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U612/FracNet_T_mac_mulcGz_DSP48_7_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#60 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U612/FracNet_T_mac_mulcGz_DSP48_7_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U612/FracNet_T_mac_mulcGz_DSP48_7_U/p/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#61 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U613/FracNet_T_mac_mulcGz_DSP48_7_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U613/FracNet_T_mac_mulcGz_DSP48_7_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#62 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U613/FracNet_T_mac_mulcGz_DSP48_7_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U613/FracNet_T_mac_mulcGz_DSP48_7_U/p/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#63 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U614/FracNet_T_mac_mulcGz_DSP48_7_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U614/FracNet_T_mac_mulcGz_DSP48_7_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#64 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U614/FracNet_T_mac_mulcGz_DSP48_7_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U614/FracNet_T_mac_mulcGz_DSP48_7_U/p/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#65 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U535/FracNet_T_mul_mulcCy_DSP48_3_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U535/FracNet_T_mul_mulcCy_DSP48_3_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#66 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U536/FracNet_T_mul_mulcCy_DSP48_3_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U536/FracNet_T_mul_mulcCy_DSP48_3_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#67 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U537/FracNet_T_mul_mulcCy_DSP48_3_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U537/FracNet_T_mul_mulcCy_DSP48_3_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#68 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U538/FracNet_T_mul_mulcCy_DSP48_3_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U538/FracNet_T_mul_mulcCy_DSP48_3_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#69 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U539/FracNet_T_mul_mulcCy_DSP48_3_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U539/FracNet_T_mul_mulcCy_DSP48_3_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#70 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U540/FracNet_T_mul_mulcCy_DSP48_3_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U540/FracNet_T_mul_mulcCy_DSP48_3_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#71 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U541/FracNet_T_mul_mulcCy_DSP48_3_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U541/FracNet_T_mul_mulcCy_DSP48_3_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#72 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U542/FracNet_T_mul_mulcCy_DSP48_3_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U542/FracNet_T_mul_mulcCy_DSP48_3_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#73 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U543/FracNet_T_mul_mulcCy_DSP48_3_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U543/FracNet_T_mul_mulcCy_DSP48_3_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#74 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U544/FracNet_T_mul_mulcCy_DSP48_3_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U544/FracNet_T_mul_mulcCy_DSP48_3_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#75 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U545/FracNet_T_mul_mulcCy_DSP48_3_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U545/FracNet_T_mul_mulcCy_DSP48_3_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#76 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U546/FracNet_T_mul_mulcCy_DSP48_3_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U546/FracNet_T_mul_mulcCy_DSP48_3_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#77 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U547/FracNet_T_mul_mulcCy_DSP48_3_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U547/FracNet_T_mul_mulcCy_DSP48_3_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#78 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U548/FracNet_T_mul_mulcCy_DSP48_3_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U548/FracNet_T_mul_mulcCy_DSP48_3_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#79 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U549/FracNet_T_mul_mulcCy_DSP48_3_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U549/FracNet_T_mul_mulcCy_DSP48_3_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#80 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U550/FracNet_T_mul_mulcCy_DSP48_3_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U550/FracNet_T_mul_mulcCy_DSP48_3_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#81 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U583/FracNet_T_mul_mulcFz_DSP48_6_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U583/FracNet_T_mul_mulcFz_DSP48_6_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#82 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U584/FracNet_T_mul_mulcFz_DSP48_6_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U584/FracNet_T_mul_mulcFz_DSP48_6_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#83 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U585/FracNet_T_mul_mulcFz_DSP48_6_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U585/FracNet_T_mul_mulcFz_DSP48_6_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#84 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U586/FracNet_T_mul_mulcFz_DSP48_6_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U586/FracNet_T_mul_mulcFz_DSP48_6_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#85 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U587/FracNet_T_mul_mulcFz_DSP48_6_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U587/FracNet_T_mul_mulcFz_DSP48_6_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#86 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U588/FracNet_T_mul_mulcFz_DSP48_6_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U588/FracNet_T_mul_mulcFz_DSP48_6_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#87 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U589/FracNet_T_mul_mulcFz_DSP48_6_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U589/FracNet_T_mul_mulcFz_DSP48_6_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#88 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U590/FracNet_T_mul_mulcFz_DSP48_6_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U590/FracNet_T_mul_mulcFz_DSP48_6_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#89 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U591/FracNet_T_mul_mulcFz_DSP48_6_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U591/FracNet_T_mul_mulcFz_DSP48_6_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#90 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U592/FracNet_T_mul_mulcFz_DSP48_6_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U592/FracNet_T_mul_mulcFz_DSP48_6_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#91 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U593/FracNet_T_mul_mulcFz_DSP48_6_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U593/FracNet_T_mul_mulcFz_DSP48_6_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#92 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U594/FracNet_T_mul_mulcFz_DSP48_6_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U594/FracNet_T_mul_mulcFz_DSP48_6_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#93 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U595/FracNet_T_mul_mulcFz_DSP48_6_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U595/FracNet_T_mul_mulcFz_DSP48_6_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#94 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U596/FracNet_T_mul_mulcFz_DSP48_6_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U596/FracNet_T_mul_mulcFz_DSP48_6_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#95 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U597/FracNet_T_mul_mulcFz_DSP48_6_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U597/FracNet_T_mul_mulcFz_DSP48_6_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#96 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U598/FracNet_T_mul_mulcFz_DSP48_6_U/p input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U598/FracNet_T_mul_mulcFz_DSP48_6_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#97 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_10_fu_15145_p2 input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_10_fu_15145_p2/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#98 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_11_fu_15294_p2 input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_11_fu_15294_p2/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#99 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_12_fu_15443_p2 input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_12_fu_15443_p2/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#100 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_13_fu_15592_p2 input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_13_fu_15592_p2/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#101 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_14_fu_15741_p2 input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_14_fu_15741_p2/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#102 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_15_fu_15890_p2 input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_15_fu_15890_p2/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#103 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_16_fu_16039_p2 input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_16_fu_16039_p2/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#104 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_17_fu_16188_p2 input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_17_fu_16188_p2/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#105 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_18_fu_16337_p2 input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_18_fu_16337_p2/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#106 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_19_fu_16486_p2 input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_19_fu_16486_p2/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#107 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_20_fu_16635_p2 input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_20_fu_16635_p2/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#108 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_21_fu_16784_p2 input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_21_fu_16784_p2/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#109 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_22_fu_16933_p2 input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_22_fu_16933_p2/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#110 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_23_fu_17082_p2 input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_23_fu_17082_p2/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#111 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_24_fu_17231_p2 input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_24_fu_17231_p2/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#112 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_fu_14996_p2 input design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_fu_14996_p2/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#113 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_matmul_fu_18923/FracNet_T_mul_muldaE_U1347/FracNet_T_mul_muldaE_DSP48_8_U/p input design_1_i/FracNet_T_0/inst/grp_matmul_fu_18923/FracNet_T_mul_muldaE_U1347/FracNet_T_mul_muldaE_DSP48_8_U/p/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#114 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_matmul_fu_18923/FracNet_T_mul_muldaE_U1348/FracNet_T_mul_muldaE_DSP48_8_U/p input design_1_i/FracNet_T_0/inst/grp_matmul_fu_18923/FracNet_T_mul_muldaE_U1348/FracNet_T_mul_muldaE_DSP48_8_U/p/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#115 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_matmul_fu_18923/FracNet_T_mul_muldaE_U1349/FracNet_T_mul_muldaE_DSP48_8_U/p input design_1_i/FracNet_T_0/inst/grp_matmul_fu_18923/FracNet_T_mul_muldaE_U1349/FracNet_T_mul_muldaE_DSP48_8_U/p/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#116 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_matmul_fu_18923/FracNet_T_mul_muldaE_U1351/FracNet_T_mul_muldaE_DSP48_8_U/p input design_1_i/FracNet_T_0/inst/grp_matmul_fu_18923/FracNet_T_mul_muldaE_U1351/FracNet_T_mul_muldaE_DSP48_8_U/p/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#117 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_matmul_fu_18923/FracNet_T_mul_muldaE_U1352/FracNet_T_mul_muldaE_DSP48_8_U/p input design_1_i/FracNet_T_0/inst/grp_matmul_fu_18923/FracNet_T_mul_muldaE_U1352/FracNet_T_mul_muldaE_DSP48_8_U/p/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#118 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_matmul_fu_18923/FracNet_T_mul_muldaE_U1353/FracNet_T_mul_muldaE_DSP48_8_U/p input design_1_i/FracNet_T_0/inst/grp_matmul_fu_18923/FracNet_T_mul_muldaE_U1353/FracNet_T_mul_muldaE_DSP48_8_U/p/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#119 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_matmul_fu_18923/FracNet_T_mul_muldaE_U1354/FracNet_T_mul_muldaE_DSP48_8_U/p input design_1_i/FracNet_T_0/inst/grp_matmul_fu_18923/FracNet_T_mul_muldaE_U1354/FracNet_T_mul_muldaE_DSP48_8_U/p/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#120 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_matmul_fu_18923/FracNet_T_mul_muldaE_U1355/FracNet_T_mul_muldaE_DSP48_8_U/p input design_1_i/FracNet_T_0/inst/grp_matmul_fu_18923/FracNet_T_mul_muldaE_U1355/FracNet_T_mul_muldaE_DSP48_8_U/p/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#121 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_matmul_fu_18923/FracNet_T_mul_muldaE_U1356/FracNet_T_mul_muldaE_DSP48_8_U/p input design_1_i/FracNet_T_0/inst/grp_matmul_fu_18923/FracNet_T_mul_muldaE_U1356/FracNet_T_mul_muldaE_DSP48_8_U/p/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#122 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_matmul_fu_18923/FracNet_T_mul_muldbE_U1350/FracNet_T_mul_muldbE_DSP48_9_U/p input design_1_i/FracNet_T_0/inst/grp_matmul_fu_18923/FracNet_T_mul_muldbE_U1350/FracNet_T_mul_muldbE_DSP48_9_U/p/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#123 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_matmul_fu_18923/add_ln1192_10_fu_1271_p2 input design_1_i/FracNet_T_0/inst/grp_matmul_fu_18923/add_ln1192_10_fu_1271_p2/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#124 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_matmul_fu_18923/add_ln1192_10_fu_1271_p2 input design_1_i/FracNet_T_0/inst/grp_matmul_fu_18923/add_ln1192_10_fu_1271_p2/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#125 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_matmul_fu_18923/add_ln1192_3_fu_1938_p2 input design_1_i/FracNet_T_0/inst/grp_matmul_fu_18923/add_ln1192_3_fu_1938_p2/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#126 Warning
+Input pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_matmul_fu_18923/add_ln1192_3_fu_1938_p2 input design_1_i/FracNet_T_0/inst/grp_matmul_fu_18923/add_ln1192_3_fu_1938_p2/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPOP-3#1 Warning
+PREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U567/FracNet_T_mac_mulcEy_DSP48_5_U/p output design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U567/FracNet_T_mac_mulcEy_DSP48_5_U/p/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#2 Warning
+PREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U568/FracNet_T_mac_mulcEy_DSP48_5_U/p output design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U568/FracNet_T_mac_mulcEy_DSP48_5_U/p/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#3 Warning
+PREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U569/FracNet_T_mac_mulcEy_DSP48_5_U/p output design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U569/FracNet_T_mac_mulcEy_DSP48_5_U/p/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#4 Warning
+PREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U570/FracNet_T_mac_mulcEy_DSP48_5_U/p output design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U570/FracNet_T_mac_mulcEy_DSP48_5_U/p/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#5 Warning
+PREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U571/FracNet_T_mac_mulcEy_DSP48_5_U/p output design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U571/FracNet_T_mac_mulcEy_DSP48_5_U/p/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#6 Warning
+PREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U572/FracNet_T_mac_mulcEy_DSP48_5_U/p output design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U572/FracNet_T_mac_mulcEy_DSP48_5_U/p/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#7 Warning
+PREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U573/FracNet_T_mac_mulcEy_DSP48_5_U/p output design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U573/FracNet_T_mac_mulcEy_DSP48_5_U/p/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#8 Warning
+PREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U574/FracNet_T_mac_mulcEy_DSP48_5_U/p output design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U574/FracNet_T_mac_mulcEy_DSP48_5_U/p/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#9 Warning
+PREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U575/FracNet_T_mac_mulcEy_DSP48_5_U/p output design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U575/FracNet_T_mac_mulcEy_DSP48_5_U/p/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#10 Warning
+PREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U576/FracNet_T_mac_mulcEy_DSP48_5_U/p output design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U576/FracNet_T_mac_mulcEy_DSP48_5_U/p/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#11 Warning
+PREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U577/FracNet_T_mac_mulcEy_DSP48_5_U/p output design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U577/FracNet_T_mac_mulcEy_DSP48_5_U/p/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#12 Warning
+PREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U578/FracNet_T_mac_mulcEy_DSP48_5_U/p output design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U578/FracNet_T_mac_mulcEy_DSP48_5_U/p/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#13 Warning
+PREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U579/FracNet_T_mac_mulcEy_DSP48_5_U/p output design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U579/FracNet_T_mac_mulcEy_DSP48_5_U/p/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#14 Warning
+PREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U580/FracNet_T_mac_mulcEy_DSP48_5_U/p output design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U580/FracNet_T_mac_mulcEy_DSP48_5_U/p/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#15 Warning
+PREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U581/FracNet_T_mac_mulcEy_DSP48_5_U/p output design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U581/FracNet_T_mac_mulcEy_DSP48_5_U/p/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#16 Warning
+PREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U582/FracNet_T_mac_mulcEy_DSP48_5_U/p output design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U582/FracNet_T_mac_mulcEy_DSP48_5_U/p/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#17 Warning
+PREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U599/FracNet_T_mac_mulcEy_DSP48_5_U/p output design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U599/FracNet_T_mac_mulcEy_DSP48_5_U/p/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#18 Warning
+PREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U600/FracNet_T_mac_mulcGz_DSP48_7_U/p output design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U600/FracNet_T_mac_mulcGz_DSP48_7_U/p/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#19 Warning
+PREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U601/FracNet_T_mac_mulcGz_DSP48_7_U/p output design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U601/FracNet_T_mac_mulcGz_DSP48_7_U/p/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#20 Warning
+PREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U602/FracNet_T_mac_mulcGz_DSP48_7_U/p output design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U602/FracNet_T_mac_mulcGz_DSP48_7_U/p/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#21 Warning
+PREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U603/FracNet_T_mac_mulcGz_DSP48_7_U/p output design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U603/FracNet_T_mac_mulcGz_DSP48_7_U/p/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#22 Warning
+PREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U604/FracNet_T_mac_mulcGz_DSP48_7_U/p output design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U604/FracNet_T_mac_mulcGz_DSP48_7_U/p/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#23 Warning
+PREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U605/FracNet_T_mac_mulcGz_DSP48_7_U/p output design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U605/FracNet_T_mac_mulcGz_DSP48_7_U/p/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#24 Warning
+PREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U606/FracNet_T_mac_mulcGz_DSP48_7_U/p output design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U606/FracNet_T_mac_mulcGz_DSP48_7_U/p/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#25 Warning
+PREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U607/FracNet_T_mac_mulcGz_DSP48_7_U/p output design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U607/FracNet_T_mac_mulcGz_DSP48_7_U/p/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#26 Warning
+PREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U608/FracNet_T_mac_mulcGz_DSP48_7_U/p output design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U608/FracNet_T_mac_mulcGz_DSP48_7_U/p/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#27 Warning
+PREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U609/FracNet_T_mac_mulcGz_DSP48_7_U/p output design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U609/FracNet_T_mac_mulcGz_DSP48_7_U/p/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#28 Warning
+PREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U610/FracNet_T_mac_mulcGz_DSP48_7_U/p output design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U610/FracNet_T_mac_mulcGz_DSP48_7_U/p/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#29 Warning
+PREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U611/FracNet_T_mac_mulcGz_DSP48_7_U/p output design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U611/FracNet_T_mac_mulcGz_DSP48_7_U/p/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#30 Warning
+PREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U612/FracNet_T_mac_mulcGz_DSP48_7_U/p output design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U612/FracNet_T_mac_mulcGz_DSP48_7_U/p/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#31 Warning
+PREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U613/FracNet_T_mac_mulcGz_DSP48_7_U/p output design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U613/FracNet_T_mac_mulcGz_DSP48_7_U/p/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#32 Warning
+PREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U614/FracNet_T_mac_mulcGz_DSP48_7_U/p output design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U614/FracNet_T_mac_mulcGz_DSP48_7_U/p/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#33 Warning
+PREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_10_fu_15145_p2 output design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_10_fu_15145_p2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#34 Warning
+PREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_11_fu_15294_p2 output design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_11_fu_15294_p2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#35 Warning
+PREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_12_fu_15443_p2 output design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_12_fu_15443_p2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#36 Warning
+PREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_13_fu_15592_p2 output design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_13_fu_15592_p2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#37 Warning
+PREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_14_fu_15741_p2 output design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_14_fu_15741_p2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#38 Warning
+PREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_15_fu_15890_p2 output design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_15_fu_15890_p2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#39 Warning
+PREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_16_fu_16039_p2 output design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_16_fu_16039_p2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#40 Warning
+PREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_17_fu_16188_p2 output design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_17_fu_16188_p2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#41 Warning
+PREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_18_fu_16337_p2 output design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_18_fu_16337_p2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#42 Warning
+PREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_19_fu_16486_p2 output design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_19_fu_16486_p2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#43 Warning
+PREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_20_fu_16635_p2 output design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_20_fu_16635_p2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#44 Warning
+PREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_21_fu_16784_p2 output design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_21_fu_16784_p2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#45 Warning
+PREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_22_fu_16933_p2 output design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_22_fu_16933_p2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#46 Warning
+PREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_23_fu_17082_p2 output design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_23_fu_17082_p2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#47 Warning
+PREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_24_fu_17231_p2 output design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_24_fu_17231_p2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#48 Warning
+PREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_fu_14996_p2 output design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln1192_fu_14996_p2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#49 Warning
+PREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_matmul_fu_18923/add_ln1192_10_fu_1271_p2 output design_1_i/FracNet_T_0/inst/grp_matmul_fu_18923/add_ln1192_10_fu_1271_p2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#50 Warning
+PREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_matmul_fu_18923/add_ln1192_3_fu_1938_p2 output design_1_i/FracNet_T_0/inst/grp_matmul_fu_18923/add_ln1192_3_fu_1938_p2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-4#1 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_binary_conv3x3_tile_fu_5847/mul_ln1494_10_reg_19085_reg multiplier stage design_1_i/FracNet_T_0/inst/grp_binary_conv3x3_tile_fu_5847/mul_ln1494_10_reg_19085_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#2 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_binary_conv3x3_tile_fu_5847/mul_ln1494_11_reg_19090_reg multiplier stage design_1_i/FracNet_T_0/inst/grp_binary_conv3x3_tile_fu_5847/mul_ln1494_11_reg_19090_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#3 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_binary_conv3x3_tile_fu_5847/mul_ln1494_12_reg_19095_reg multiplier stage design_1_i/FracNet_T_0/inst/grp_binary_conv3x3_tile_fu_5847/mul_ln1494_12_reg_19095_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#4 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_binary_conv3x3_tile_fu_5847/mul_ln1494_13_reg_19100_reg multiplier stage design_1_i/FracNet_T_0/inst/grp_binary_conv3x3_tile_fu_5847/mul_ln1494_13_reg_19100_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#5 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_binary_conv3x3_tile_fu_5847/mul_ln1494_14_reg_19105_reg multiplier stage design_1_i/FracNet_T_0/inst/grp_binary_conv3x3_tile_fu_5847/mul_ln1494_14_reg_19105_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#6 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_binary_conv3x3_tile_fu_5847/mul_ln1494_15_reg_19110_reg multiplier stage design_1_i/FracNet_T_0/inst/grp_binary_conv3x3_tile_fu_5847/mul_ln1494_15_reg_19110_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#7 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_binary_conv3x3_tile_fu_5847/mul_ln1494_1_reg_19040_reg multiplier stage design_1_i/FracNet_T_0/inst/grp_binary_conv3x3_tile_fu_5847/mul_ln1494_1_reg_19040_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#8 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_binary_conv3x3_tile_fu_5847/mul_ln1494_2_reg_19045_reg multiplier stage design_1_i/FracNet_T_0/inst/grp_binary_conv3x3_tile_fu_5847/mul_ln1494_2_reg_19045_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#9 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_binary_conv3x3_tile_fu_5847/mul_ln1494_3_reg_19050_reg multiplier stage design_1_i/FracNet_T_0/inst/grp_binary_conv3x3_tile_fu_5847/mul_ln1494_3_reg_19050_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#10 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_binary_conv3x3_tile_fu_5847/mul_ln1494_4_reg_19055_reg multiplier stage design_1_i/FracNet_T_0/inst/grp_binary_conv3x3_tile_fu_5847/mul_ln1494_4_reg_19055_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#11 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_binary_conv3x3_tile_fu_5847/mul_ln1494_5_reg_19060_reg multiplier stage design_1_i/FracNet_T_0/inst/grp_binary_conv3x3_tile_fu_5847/mul_ln1494_5_reg_19060_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#12 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_binary_conv3x3_tile_fu_5847/mul_ln1494_6_reg_19065_reg multiplier stage design_1_i/FracNet_T_0/inst/grp_binary_conv3x3_tile_fu_5847/mul_ln1494_6_reg_19065_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#13 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_binary_conv3x3_tile_fu_5847/mul_ln1494_7_reg_19070_reg multiplier stage design_1_i/FracNet_T_0/inst/grp_binary_conv3x3_tile_fu_5847/mul_ln1494_7_reg_19070_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#14 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_binary_conv3x3_tile_fu_5847/mul_ln1494_8_reg_19075_reg multiplier stage design_1_i/FracNet_T_0/inst/grp_binary_conv3x3_tile_fu_5847/mul_ln1494_8_reg_19075_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#15 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_binary_conv3x3_tile_fu_5847/mul_ln1494_9_reg_19080_reg multiplier stage design_1_i/FracNet_T_0/inst/grp_binary_conv3x3_tile_fu_5847/mul_ln1494_9_reg_19080_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#16 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_binary_conv3x3_tile_fu_5847/mul_ln1494_reg_19035_reg multiplier stage design_1_i/FracNet_T_0/inst/grp_binary_conv3x3_tile_fu_5847/mul_ln1494_reg_19035_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#17 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U567/FracNet_T_mac_mulcEy_DSP48_5_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U567/FracNet_T_mac_mulcEy_DSP48_5_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#18 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U568/FracNet_T_mac_mulcEy_DSP48_5_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U568/FracNet_T_mac_mulcEy_DSP48_5_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#19 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U569/FracNet_T_mac_mulcEy_DSP48_5_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U569/FracNet_T_mac_mulcEy_DSP48_5_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#20 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U570/FracNet_T_mac_mulcEy_DSP48_5_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U570/FracNet_T_mac_mulcEy_DSP48_5_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#21 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U571/FracNet_T_mac_mulcEy_DSP48_5_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U571/FracNet_T_mac_mulcEy_DSP48_5_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#22 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U572/FracNet_T_mac_mulcEy_DSP48_5_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U572/FracNet_T_mac_mulcEy_DSP48_5_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#23 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U573/FracNet_T_mac_mulcEy_DSP48_5_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U573/FracNet_T_mac_mulcEy_DSP48_5_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#24 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U574/FracNet_T_mac_mulcEy_DSP48_5_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U574/FracNet_T_mac_mulcEy_DSP48_5_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#25 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U575/FracNet_T_mac_mulcEy_DSP48_5_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U575/FracNet_T_mac_mulcEy_DSP48_5_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#26 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U576/FracNet_T_mac_mulcEy_DSP48_5_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U576/FracNet_T_mac_mulcEy_DSP48_5_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#27 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U577/FracNet_T_mac_mulcEy_DSP48_5_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U577/FracNet_T_mac_mulcEy_DSP48_5_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#28 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U578/FracNet_T_mac_mulcEy_DSP48_5_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U578/FracNet_T_mac_mulcEy_DSP48_5_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#29 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U579/FracNet_T_mac_mulcEy_DSP48_5_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U579/FracNet_T_mac_mulcEy_DSP48_5_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#30 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U580/FracNet_T_mac_mulcEy_DSP48_5_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U580/FracNet_T_mac_mulcEy_DSP48_5_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#31 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U581/FracNet_T_mac_mulcEy_DSP48_5_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U581/FracNet_T_mac_mulcEy_DSP48_5_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#32 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U582/FracNet_T_mac_mulcEy_DSP48_5_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U582/FracNet_T_mac_mulcEy_DSP48_5_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#33 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U599/FracNet_T_mac_mulcEy_DSP48_5_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcEy_U599/FracNet_T_mac_mulcEy_DSP48_5_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#34 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U600/FracNet_T_mac_mulcGz_DSP48_7_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U600/FracNet_T_mac_mulcGz_DSP48_7_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#35 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U601/FracNet_T_mac_mulcGz_DSP48_7_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U601/FracNet_T_mac_mulcGz_DSP48_7_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#36 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U602/FracNet_T_mac_mulcGz_DSP48_7_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U602/FracNet_T_mac_mulcGz_DSP48_7_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#37 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U603/FracNet_T_mac_mulcGz_DSP48_7_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U603/FracNet_T_mac_mulcGz_DSP48_7_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#38 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U604/FracNet_T_mac_mulcGz_DSP48_7_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U604/FracNet_T_mac_mulcGz_DSP48_7_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#39 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U605/FracNet_T_mac_mulcGz_DSP48_7_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U605/FracNet_T_mac_mulcGz_DSP48_7_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#40 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U606/FracNet_T_mac_mulcGz_DSP48_7_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U606/FracNet_T_mac_mulcGz_DSP48_7_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#41 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U607/FracNet_T_mac_mulcGz_DSP48_7_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U607/FracNet_T_mac_mulcGz_DSP48_7_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#42 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U608/FracNet_T_mac_mulcGz_DSP48_7_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U608/FracNet_T_mac_mulcGz_DSP48_7_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#43 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U609/FracNet_T_mac_mulcGz_DSP48_7_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U609/FracNet_T_mac_mulcGz_DSP48_7_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#44 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U610/FracNet_T_mac_mulcGz_DSP48_7_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U610/FracNet_T_mac_mulcGz_DSP48_7_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#45 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U611/FracNet_T_mac_mulcGz_DSP48_7_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U611/FracNet_T_mac_mulcGz_DSP48_7_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#46 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U612/FracNet_T_mac_mulcGz_DSP48_7_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U612/FracNet_T_mac_mulcGz_DSP48_7_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#47 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U613/FracNet_T_mac_mulcGz_DSP48_7_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U613/FracNet_T_mac_mulcGz_DSP48_7_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#48 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U614/FracNet_T_mac_mulcGz_DSP48_7_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mac_mulcGz_U614/FracNet_T_mac_mulcGz_DSP48_7_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#49 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U535/FracNet_T_mul_mulcCy_DSP48_3_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U535/FracNet_T_mul_mulcCy_DSP48_3_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#50 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U536/FracNet_T_mul_mulcCy_DSP48_3_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U536/FracNet_T_mul_mulcCy_DSP48_3_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#51 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U537/FracNet_T_mul_mulcCy_DSP48_3_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U537/FracNet_T_mul_mulcCy_DSP48_3_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#52 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U538/FracNet_T_mul_mulcCy_DSP48_3_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U538/FracNet_T_mul_mulcCy_DSP48_3_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#53 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U539/FracNet_T_mul_mulcCy_DSP48_3_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U539/FracNet_T_mul_mulcCy_DSP48_3_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#54 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U540/FracNet_T_mul_mulcCy_DSP48_3_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U540/FracNet_T_mul_mulcCy_DSP48_3_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#55 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U541/FracNet_T_mul_mulcCy_DSP48_3_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U541/FracNet_T_mul_mulcCy_DSP48_3_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#56 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U542/FracNet_T_mul_mulcCy_DSP48_3_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U542/FracNet_T_mul_mulcCy_DSP48_3_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#57 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U543/FracNet_T_mul_mulcCy_DSP48_3_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U543/FracNet_T_mul_mulcCy_DSP48_3_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#58 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U544/FracNet_T_mul_mulcCy_DSP48_3_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U544/FracNet_T_mul_mulcCy_DSP48_3_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#59 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U545/FracNet_T_mul_mulcCy_DSP48_3_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U545/FracNet_T_mul_mulcCy_DSP48_3_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#60 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U546/FracNet_T_mul_mulcCy_DSP48_3_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U546/FracNet_T_mul_mulcCy_DSP48_3_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#61 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U547/FracNet_T_mul_mulcCy_DSP48_3_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U547/FracNet_T_mul_mulcCy_DSP48_3_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#62 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U548/FracNet_T_mul_mulcCy_DSP48_3_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U548/FracNet_T_mul_mulcCy_DSP48_3_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#63 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U549/FracNet_T_mul_mulcCy_DSP48_3_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U549/FracNet_T_mul_mulcCy_DSP48_3_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#64 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U550/FracNet_T_mul_mulcCy_DSP48_3_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcCy_U550/FracNet_T_mul_mulcCy_DSP48_3_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#65 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U583/FracNet_T_mul_mulcFz_DSP48_6_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U583/FracNet_T_mul_mulcFz_DSP48_6_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#66 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U584/FracNet_T_mul_mulcFz_DSP48_6_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U584/FracNet_T_mul_mulcFz_DSP48_6_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#67 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U585/FracNet_T_mul_mulcFz_DSP48_6_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U585/FracNet_T_mul_mulcFz_DSP48_6_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#68 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U586/FracNet_T_mul_mulcFz_DSP48_6_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U586/FracNet_T_mul_mulcFz_DSP48_6_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#69 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U587/FracNet_T_mul_mulcFz_DSP48_6_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U587/FracNet_T_mul_mulcFz_DSP48_6_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#70 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U588/FracNet_T_mul_mulcFz_DSP48_6_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U588/FracNet_T_mul_mulcFz_DSP48_6_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#71 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U589/FracNet_T_mul_mulcFz_DSP48_6_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U589/FracNet_T_mul_mulcFz_DSP48_6_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#72 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U590/FracNet_T_mul_mulcFz_DSP48_6_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U590/FracNet_T_mul_mulcFz_DSP48_6_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#73 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U591/FracNet_T_mul_mulcFz_DSP48_6_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U591/FracNet_T_mul_mulcFz_DSP48_6_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#74 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U592/FracNet_T_mul_mulcFz_DSP48_6_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U592/FracNet_T_mul_mulcFz_DSP48_6_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#75 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U593/FracNet_T_mul_mulcFz_DSP48_6_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U593/FracNet_T_mul_mulcFz_DSP48_6_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#76 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U594/FracNet_T_mul_mulcFz_DSP48_6_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U594/FracNet_T_mul_mulcFz_DSP48_6_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#77 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U595/FracNet_T_mul_mulcFz_DSP48_6_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U595/FracNet_T_mul_mulcFz_DSP48_6_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#78 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U596/FracNet_T_mul_mulcFz_DSP48_6_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U596/FracNet_T_mul_mulcFz_DSP48_6_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#79 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U597/FracNet_T_mul_mulcFz_DSP48_6_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U597/FracNet_T_mul_mulcFz_DSP48_6_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#80 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U598/FracNet_T_mul_mulcFz_DSP48_6_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/FracNet_T_mul_mulcFz_U598/FracNet_T_mul_mulcFz_DSP48_6_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#81 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln113_reg_41881_reg multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln113_reg_41881_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#82 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln119_reg_41887_reg multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/add_ln119_reg_41887_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#83 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/mul_ln1118_10_reg_43236_reg multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/mul_ln1118_10_reg_43236_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#84 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/mul_ln1118_12_reg_43247_reg multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/mul_ln1118_12_reg_43247_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#85 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/mul_ln1118_14_reg_43258_reg multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/mul_ln1118_14_reg_43258_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#86 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/mul_ln1118_16_reg_43269_reg multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/mul_ln1118_16_reg_43269_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#87 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/mul_ln1118_18_reg_43280_reg multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/mul_ln1118_18_reg_43280_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#88 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/mul_ln1118_20_reg_43291_reg multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/mul_ln1118_20_reg_43291_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#89 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/mul_ln1118_22_reg_43302_reg multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/mul_ln1118_22_reg_43302_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#90 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/mul_ln1118_24_reg_43313_reg multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/mul_ln1118_24_reg_43313_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#91 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/mul_ln1118_26_reg_43324_reg multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/mul_ln1118_26_reg_43324_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#92 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/mul_ln1118_28_reg_43335_reg multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/mul_ln1118_28_reg_43335_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#93 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/mul_ln1118_30_reg_43346_reg multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/mul_ln1118_30_reg_43346_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#94 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/mul_ln1118_32_reg_43357_reg multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/mul_ln1118_32_reg_43357_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#95 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/mul_ln1118_34_reg_43368_reg multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/mul_ln1118_34_reg_43368_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#96 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/mul_ln1118_36_reg_43379_reg multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/mul_ln1118_36_reg_43379_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#97 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/mul_ln1118_38_reg_43390_reg multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/mul_ln1118_38_reg_43390_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#98 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/mul_ln1118_40_reg_43401_reg multiplier stage design_1_i/FracNet_T_0/inst/grp_bn_relu_shortcut_fu_7997/mul_ln1118_40_reg_43401_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#99 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_matmul_fu_18923/FracNet_T_mul_muldaE_U1347/FracNet_T_mul_muldaE_DSP48_8_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_matmul_fu_18923/FracNet_T_mul_muldaE_U1347/FracNet_T_mul_muldaE_DSP48_8_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#100 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_matmul_fu_18923/FracNet_T_mul_muldaE_U1348/FracNet_T_mul_muldaE_DSP48_8_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_matmul_fu_18923/FracNet_T_mul_muldaE_U1348/FracNet_T_mul_muldaE_DSP48_8_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#101 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_matmul_fu_18923/FracNet_T_mul_muldaE_U1349/FracNet_T_mul_muldaE_DSP48_8_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_matmul_fu_18923/FracNet_T_mul_muldaE_U1349/FracNet_T_mul_muldaE_DSP48_8_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#102 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_matmul_fu_18923/FracNet_T_mul_muldaE_U1351/FracNet_T_mul_muldaE_DSP48_8_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_matmul_fu_18923/FracNet_T_mul_muldaE_U1351/FracNet_T_mul_muldaE_DSP48_8_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#103 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_matmul_fu_18923/FracNet_T_mul_muldaE_U1352/FracNet_T_mul_muldaE_DSP48_8_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_matmul_fu_18923/FracNet_T_mul_muldaE_U1352/FracNet_T_mul_muldaE_DSP48_8_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#104 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_matmul_fu_18923/FracNet_T_mul_muldaE_U1353/FracNet_T_mul_muldaE_DSP48_8_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_matmul_fu_18923/FracNet_T_mul_muldaE_U1353/FracNet_T_mul_muldaE_DSP48_8_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#105 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_matmul_fu_18923/FracNet_T_mul_muldaE_U1354/FracNet_T_mul_muldaE_DSP48_8_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_matmul_fu_18923/FracNet_T_mul_muldaE_U1354/FracNet_T_mul_muldaE_DSP48_8_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#106 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_matmul_fu_18923/FracNet_T_mul_muldaE_U1355/FracNet_T_mul_muldaE_DSP48_8_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_matmul_fu_18923/FracNet_T_mul_muldaE_U1355/FracNet_T_mul_muldaE_DSP48_8_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#107 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_matmul_fu_18923/FracNet_T_mul_muldaE_U1356/FracNet_T_mul_muldaE_DSP48_8_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_matmul_fu_18923/FracNet_T_mul_muldaE_U1356/FracNet_T_mul_muldaE_DSP48_8_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#108 Warning
+MREG Output pipelining  
+DSP design_1_i/FracNet_T_0/inst/grp_matmul_fu_18923/FracNet_T_mul_muldbE_U1350/FracNet_T_mul_muldbE_DSP48_9_U/p multiplier stage design_1_i/FracNet_T_0/inst/grp_matmul_fu_18923/FracNet_T_mul_muldbE_U1350/FracNet_T_mul_muldbE_DSP48_9_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+

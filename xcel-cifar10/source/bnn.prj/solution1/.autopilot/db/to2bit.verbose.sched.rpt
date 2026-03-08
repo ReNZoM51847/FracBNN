@@ -1,0 +1,158 @@
+
+
+================================================================
+== Vivado HLS Report for 'to2bit'
+================================================================
+* Date:           Sat Mar  7 17:56:56 2026
+
+* Version:        2019.2 (Build 2704478 on Wed Nov 06 22:10:23 MST 2019)
+* Project:        bnn.prj
+* Solution:       solution1
+* Product family: zynquplus
+* Target device:  xczu5eg-sfvc784-1-e
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+---------+----------+------------+
+    |  Clock |  Target | Estimated| Uncertainty|
+    +--------+---------+----------+------------+
+    |ap_clk  | 4.00 ns | 3.436 ns |   0.50 ns  |
+    +--------+---------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+----------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline |
+    |   min   |   max   |    min   |    max   | min | max |   Type   |
+    +---------+---------+----------+----------+-----+-----+----------+
+    |        1|        1| 4.000 ns | 4.000 ns |    1|    1| function |
+    +---------+---------+----------+----------+-----+-----+----------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 2
+HasVarLatency: 0
+IsPipeline: 1
+IsRtlPipelined: 1
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
++ Individual pipeline summary: 
+  * Pipeline-0: initiation interval (II) = 1, depth = 2
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 2
+* Pipeline : 1
+  Pipeline-0 : II = 1, D = 2, States = { 1 2 }
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 3.43>
+ST_1 : Operation 3 [1/1] (0.00ns)   --->   "%x_V_read = call i16 @_ssdm_op_Read.ap_auto.i16(i16 %x_V)" [./layer.h:20]   --->   Operation 3 'read' 'x_V_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 4 [1/1] (0.00ns)   --->   "%sext_ln703 = sext i16 %x_V_read to i17" [./layer.h:20]   --->   Operation 4 'sext' 'sext_ln703' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 5 [1/1] (1.01ns)   --->   "%ret_V = add i17 128, %sext_ln703" [./layer.h:20]   --->   Operation 5 'add' 'ret_V' <Predicate = true> <Delay = 1.01> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 0.62> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%shl_ln = call i26 @_ssdm_op_BitConcatenate.i26.i17.i9(i17 %ret_V, i9 0)" [./layer.h:20]   --->   Operation 6 'bitconcatenate' 'shl_ln' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 7 [1/1] (0.00ns)   --->   "%shl_ln1118_1 = call i24 @_ssdm_op_BitConcatenate.i24.i17.i7(i17 %ret_V, i7 0)" [./layer.h:20]   --->   Operation 7 'bitconcatenate' 'shl_ln1118_1' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%sext_ln1118 = sext i24 %shl_ln1118_1 to i26" [./layer.h:20]   --->   Operation 8 'sext' 'sext_ln1118' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 9 [1/1] (1.13ns)   --->   "%r_V = sub i26 %shl_ln, %sext_ln1118" [./layer.h:20]   --->   Operation 9 'sub' 'r_V' <Predicate = true> <Delay = 1.13> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 0.62> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 10 [1/1] (0.00ns)   --->   "%p_Result_s = call i1 @_ssdm_op_BitSelect.i1.i26.i32(i26 %r_V, i32 25)" [./layer.h:20]   --->   Operation 10 'bitselect' 'p_Result_s' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 11 [1/1] (0.00ns)   --->   "%temp_V = call i2 @_ssdm_op_PartSelect.i2.i26.i32.i32(i26 %r_V, i32 15, i32 16)" [./layer.h:20]   --->   Operation 11 'partselect' 'temp_V' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 12 [1/1] (0.00ns) (grouped into LUT with out node carry_1)   --->   "%p_Result_1 = call i1 @_ssdm_op_BitSelect.i1.i26.i32(i26 %r_V, i32 16)" [./layer.h:20]   --->   Operation 12 'bitselect' 'p_Result_1' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 13 [1/1] (0.00ns)   --->   "%tmp_3 = call i1 @_ssdm_op_BitSelect.i1.i26.i32(i26 %r_V, i32 14)" [./layer.h:20]   --->   Operation 13 'bitselect' 'tmp_3' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 14 [1/1] (0.00ns)   --->   "%zext_ln415 = zext i1 %tmp_3 to i2" [./layer.h:20]   --->   Operation 14 'zext' 'zext_ln415' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 15 [1/1] (0.62ns)   --->   "%temp_V_1 = add i2 %zext_ln415, %temp_V" [./layer.h:20]   --->   Operation 15 'add' 'temp_V_1' <Predicate = true> <Delay = 0.62> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 0.62> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 16 [1/1] (0.00ns) (grouped into LUT with out node carry_1)   --->   "%tmp_4 = call i1 @_ssdm_op_BitSelect.i1.i2.i32(i2 %temp_V_1, i32 1)" [./layer.h:20]   --->   Operation 16 'bitselect' 'tmp_4' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 17 [1/1] (0.00ns) (grouped into LUT with out node carry_1)   --->   "%xor_ln416 = xor i1 %tmp_4, true" [./layer.h:20]   --->   Operation 17 'xor' 'xor_ln416' <Predicate = true> <Delay = 0.00> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.33> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 18 [1/1] (0.33ns) (out node of the LUT)   --->   "%carry_1 = and i1 %p_Result_1, %xor_ln416" [./layer.h:20]   --->   Operation 18 'and' 'carry_1' <Predicate = true> <Delay = 0.33> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.33> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 19 [1/1] (0.00ns)   --->   "%tmp = call i9 @_ssdm_op_PartSelect.i9.i26.i32.i32(i26 %r_V, i32 17, i32 25)" [./layer.h:20]   --->   Operation 19 'partselect' 'tmp' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 20 [1/1] (0.85ns)   --->   "%Range1_all_ones = icmp eq i9 %tmp, -1" [./layer.h:20]   --->   Operation 20 'icmp' 'Range1_all_ones' <Predicate = true> <Delay = 0.85> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 0.85> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 21 [1/1] (0.85ns)   --->   "%Range1_all_zeros = icmp eq i9 %tmp, 0" [./layer.h:20]   --->   Operation 21 'icmp' 'Range1_all_zeros' <Predicate = true> <Delay = 0.85> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 0.85> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 22 [1/1] (0.00ns) (grouped into LUT with out node or_ln785)   --->   "%deleted_zeros = select i1 %carry_1, i1 %Range1_all_ones, i1 %Range1_all_zeros" [./layer.h:20]   --->   Operation 22 'select' 'deleted_zeros' <Predicate = true> <Delay = 0.00> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 0.26> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 23 [1/1] (0.33ns)   --->   "%and_ln781 = and i1 %carry_1, %Range1_all_ones" [./layer.h:20]   --->   Operation 23 'and' 'and_ln781' <Predicate = true> <Delay = 0.33> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.33> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 24 [1/1] (0.33ns) (out node of the LUT)   --->   "%or_ln785 = or i1 %deleted_zeros, %p_Result_s" [./layer.h:20]   --->   Operation 24 'or' 'or_ln785' <Predicate = true> <Delay = 0.33> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.33> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+
+State 2 <SV = 1> <Delay = 0.66>
+ST_2 : Operation 25 [1/1] (0.00ns) (grouped into LUT with out node select_ln396)   --->   "%xor_ln781 = xor i1 %and_ln781, true" [./layer.h:20]   --->   Operation 25 'xor' 'xor_ln781' <Predicate = true> <Delay = 0.00> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.33> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 26 [1/1] (0.00ns) (grouped into LUT with out node select_ln396)   --->   "%neg_src = and i1 %p_Result_s, %xor_ln781" [./layer.h:20]   --->   Operation 26 'and' 'neg_src' <Predicate = true> <Delay = 0.00> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.33> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 27 [1/1] (0.00ns) (grouped into LUT with out node p_Val2_s)   --->   "%overflow = xor i1 %or_ln785, true" [./layer.h:20]   --->   Operation 27 'xor' 'overflow' <Predicate = true> <Delay = 0.00> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.33> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 28 [1/1] (0.00ns) (grouped into LUT with out node or_ln340_1)   --->   "%xor_ln340 = xor i1 %p_Result_s, true" [./layer.h:20]   --->   Operation 28 'xor' 'xor_ln340' <Predicate = true> <Delay = 0.00> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.33> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 29 [1/1] (0.33ns) (out node of the LUT)   --->   "%or_ln340_1 = or i1 %and_ln781, %xor_ln340" [./layer.h:20]   --->   Operation 29 'or' 'or_ln340_1' <Predicate = true> <Delay = 0.33> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.33> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 30 [1/1] (0.00ns) (grouped into LUT with out node p_Val2_s)   --->   "%and_ln340 = and i1 %or_ln785, %or_ln340_1" [./layer.h:20]   --->   Operation 30 'and' 'and_ln340' <Predicate = true> <Delay = 0.00> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.33> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 31 [1/1] (0.00ns) (grouped into LUT with out node p_Val2_s)   --->   "%or_ln340 = or i1 %or_ln340_1, %overflow" [./layer.h:20]   --->   Operation 31 'or' 'or_ln340' <Predicate = true> <Delay = 0.00> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.33> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 32 [1/1] (0.00ns) (grouped into LUT with out node p_Val2_s)   --->   "%select_ln340 = select i1 %and_ln340, i2 %temp_V_1, i2 -1" [./layer.h:20]   --->   Operation 32 'select' 'select_ln340' <Predicate = true> <Delay = 0.00> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 0.26> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_2 : Operation 33 [1/1] (0.33ns) (out node of the LUT)   --->   "%select_ln396 = select i1 %neg_src, i2 0, i2 %temp_V_1" [./layer.h:20]   --->   Operation 33 'select' 'select_ln396' <Predicate = true> <Delay = 0.33> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 0.26> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_2 : Operation 34 [1/1] (0.33ns) (out node of the LUT)   --->   "%p_Val2_s = select i1 %or_ln340, i2 %select_ln340, i2 %select_ln396" [./layer.h:20]   --->   Operation 34 'select' 'p_Val2_s' <Predicate = true> <Delay = 0.33> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 0.26> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_2 : Operation 35 [1/1] (0.00ns)   --->   "ret i2 %p_Val2_s" [./layer.h:21]   --->   Operation 35 'ret' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 4ns, clock uncertainty: 0.5ns.
+
+ <State 1>: 3.44ns
+The critical path consists of the following:
+	wire read on port 'x_V' (./layer.h:20) [2]  (0 ns)
+	'add' operation ('ret.V', ./layer.h:20) [4]  (1.02 ns)
+	'sub' operation ('r.V', ./layer.h:20) [8]  (1.13 ns)
+	'add' operation ('temp.V', ./layer.h:20) [14]  (0.625 ns)
+	'xor' operation ('xor_ln416', ./layer.h:20) [16]  (0 ns)
+	'and' operation ('carry', ./layer.h:20) [17]  (0.331 ns)
+	'and' operation ('and_ln781', ./layer.h:20) [22]  (0.331 ns)
+
+ <State 2>: 0.662ns
+The critical path consists of the following:
+	'xor' operation ('xor_ln781', ./layer.h:20) [23]  (0 ns)
+	'and' operation ('neg_src', ./layer.h:20) [24]  (0 ns)
+	'select' operation ('select_ln396', ./layer.h:20) [32]  (0.331 ns)
+	'select' operation ('__Val2__', ./layer.h:20) [33]  (0.331 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

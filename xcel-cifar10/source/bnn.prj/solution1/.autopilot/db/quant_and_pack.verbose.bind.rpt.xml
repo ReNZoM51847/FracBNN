@@ -1,0 +1,62 @@
+<profile>
+
+<section name = "Vivado HLS Report for 'quant_and_pack'" level="0">
+<item name = "Date">Sat Mar  7 17:56:59 2026
+</item>
+<item name = "Version">2019.2 (Build 2704478 on Wed Nov 06 22:10:23 MST 2019)</item>
+<item name = "Project">bnn.prj</item>
+<item name = "Solution">solution1</item>
+<item name = "Product family">zynquplus</item>
+<item name = "Target device">xczu5eg-sfvc784-1-e</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">4.00 ns, 3.500 ns, 0.50 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">261, 4101, 1.044 us, 16.404 us, 261, 4101, none</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+<column name="grp_to2bit_fu_1371">to2bit, 1, 1, 4.000 ns, 4.000 ns, 1, 1, function</column>
+<column name="grp_to2bit_fu_1377">to2bit, 1, 1, 4.000 ns, 4.000 ns, 1, 1, function</column>
+<column name="grp_to2bit_fu_1383">to2bit, 1, 1, 4.000 ns, 4.000 ns, 1, 1, function</column>
+<column name="grp_to2bit_fu_1389">to2bit, 1, 1, 4.000 ns, 4.000 ns, 1, 1, function</column>
+<column name="grp_to2bit_fu_1395">to2bit, 1, 1, 4.000 ns, 4.000 ns, 1, 1, function</column>
+<column name="grp_to2bit_fu_1401">to2bit, 1, 1, 4.000 ns, 4.000 ns, 1, 1, function</column>
+<column name="grp_to2bit_fu_1407">to2bit, 1, 1, 4.000 ns, 4.000 ns, 1, 1, function</column>
+<column name="grp_to2bit_fu_1413">to2bit, 1, 1, 4.000 ns, 4.000 ns, 1, 1, function</column>
+<column name="grp_to2bit_fu_1419">to2bit, 1, 1, 4.000 ns, 4.000 ns, 1, 1, function</column>
+<column name="grp_to2bit_fu_1425">to2bit, 1, 1, 4.000 ns, 4.000 ns, 1, 1, function</column>
+<column name="grp_to2bit_fu_1431">to2bit, 1, 1, 4.000 ns, 4.000 ns, 1, 1, function</column>
+<column name="grp_to2bit_fu_1437">to2bit, 1, 1, 4.000 ns, 4.000 ns, 1, 1, function</column>
+<column name="grp_to2bit_fu_1443">to2bit, 1, 1, 4.000 ns, 4.000 ns, 1, 1, function</column>
+<column name="grp_to2bit_fu_1449">to2bit, 1, 1, 4.000 ns, 4.000 ns, 1, 1, function</column>
+<column name="grp_to2bit_fu_1455">to2bit, 1, 1, 4.000 ns, 4.000 ns, 1, 1, function</column>
+<column name="grp_to2bit_fu_1461">to2bit, 1, 1, 4.000 ns, 4.000 ns, 1, 1, function</column>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+<column name="- LOOP_Quant_Pack_L">259, 4099, 5, 1, 1, 256 ~ 4096, yes</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+</profile>

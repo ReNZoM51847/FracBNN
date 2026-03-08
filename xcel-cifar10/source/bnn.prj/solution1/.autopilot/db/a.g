@@ -1,0 +1,4 @@
+#!/bin/sh
+lli=${LLVMINTERP-lli}
+exec $lli \
+    /home/renzom/home/prj/FracBNN/xcel-cifar10/source/bnn.prj/solution1/.autopilot/db/a.g.bc ${1+"$@"}

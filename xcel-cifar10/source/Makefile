@@ -13,7 +13,12 @@ csim: tb.cc
 
 hls:
 	@echo "Run Vivado csim and HLS"
-	vivado_hls -f syn.tcl
+	vivado_hls -f syn.tcl; \
+	TCL=./bnn.prj/solution1/impl/ip/run_ippack.tcl; \
+	if [ -f "$$TCL" ]; then \
+		sed -i 's/set Revision\s*"[0-9]\+"/set Revision    "2147483647"/' "$$TCL"; \
+		cd ./bnn.prj/solution1/impl/ip && vivado -mode batch -source run_ippack.tcl; \
+	fi
 
 vivado:
 	cp ./bitstream_prepare/design_1_wrapper.v ./bnn.prj/solution1/impl/ip/

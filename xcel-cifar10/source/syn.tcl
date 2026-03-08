@@ -18,7 +18,7 @@ add_files bnn.h
 #add_files -tb bin/labels.bin -cflags "-Wno-unknown-pragmas" -csimflags "-Wno-unknown-pragmas"
 #add_files -tb bin/conv1_input.bin -cflags "-Wno-unknown-pragmas" -csimflags "-Wno-unknown-pragmas"
 open_solution "solution1"
-set_part {xczu3eg-sbva484-1-e}
+set_part {xczu5eg-sfvc784-1-e}
 create_clock -period 4 -name default
 config_sdx -target none
 config_export -format ip_catalog -rtl verilog -vivado_optimization_level 2 -vivado_phys_opt place -vivado_report_level 0

@@ -1,0 +1,27 @@
+<AutoPilot:solution xmlns:AutoPilot="com.autoesl.autopilot.solution">
+    <config>
+        <config_sdx target="none"/>
+        <config_export vivado_optimization_level="2" format="ip_catalog" rtl="verilog" vivado_phys_opt="place" vivado_report_level="0"/>
+        <schedule model="FracNet_T"/>
+    </config>
+    <ExportDesign askAgain="true" evaluate="false" rtl="verilog" formatName="ip_catalog">
+        <Format formatName="ip_catalog" description="" vendor="" library="" ipname="" version="" driver_input_dir="" display_name="" taxonomy=""/>
+    </ExportDesign>
+    <name>
+        <value string="solution1"/>
+    </name>
+    <project>
+        <value string="bnn.prj"/>
+    </project>
+    <targetInfo>
+        <TargetInfo value="xczu5eg:-sfvc784:-1-e"/>
+    </targetInfo>
+    <libraryList>
+        <library value="xilinx/zynquplus/zynquplus" name="DefaultPlatform"/>
+        <library value="xilinx/zynquplus/zynquplus_fpv7" name="DefaultPlatform"/>
+    </libraryList>
+    <clockList>
+        <clock name="default" default="false" uncertainty="12.5%" period="4"/>
+    </clockList>
+</AutoPilot:solution>
+
