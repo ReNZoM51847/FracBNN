@@ -208,20 +208,21 @@ ssh ubuntu@192.168.2.2
 
 不要把板卡密码写入仓库文件或脚本。
 
-### 网络通路验证思路
+## 网络通路验证思路
 
 网络 bring-up 按“物理链路 -> L3 连通 -> SSH -> DNS -> HTTPS”的顺序验证，避免一上来
-把问题混成“板子不能联网”：
+把问题混成“板子不能联网”。
 
-1. 主机侧确认 Realtek RTL8125 网卡使用 `r8125` 驱动，`enp6s0` 链路为 1000Mb/s full
-   duplex，且地址为 `192.168.2.1/24`。
-2. KV260 侧确认 `eth0` 地址为 `192.168.2.2/24`，默认路由指向 `192.168.2.1`，DNS
-   也指向 `192.168.2.1`。
-3. 主机执行 `ping 192.168.2.2`，确认 ARP 和 IP 层连通。
-4. 主机执行 `ssh ubuntu@192.168.2.2`，确认板端 Linux、SSH 服务和用户登录可用。
-5. 板端执行 `getent hosts github.com pypi.org`，确认 DNS 经主机转发可用。
-6. 板端执行 `curl -I -L https://github.com` 和 `curl -I -L https://pypi.org`，确认
-   HTTPS 出网可用。
+| 阶段 | 检查点 | 命令或现象 | 通过标准 |
+| --- | --- | --- | --- |
+| 物理链路 | 主机 Realtek RTL8125 网卡 | `enp6s0` 使用 `r8125` 驱动 | 1000Mb/s full duplex |
+| 主机地址 | 主机直连口 | `ip addr show enp6s0` | `192.168.2.1/24` |
+| 板端地址 | KV260 `eth0` | `ip addr show eth0` | `192.168.2.2/24` |
+| 路由/DNS | KV260 默认网关和 DNS | `ip route`、`resolvectl status` | 均指向 `192.168.2.1` |
+| L3 连通 | 主机到 KV260 | `ping 192.168.2.2` | ARP 和 IP 层连通 |
+| 登录 | 主机到 KV260 | `ssh ubuntu@192.168.2.2` | 板端 Linux、SSH 服务和用户登录可用 |
+| DNS | KV260 解析外网域名 | `getent hosts github.com pypi.org` | 能返回解析结果 |
+| HTTPS | KV260 访问 GitHub/PyPI | `curl -I -L https://github.com`、`curl -I -L https://pypi.org` | 能获得 HTTPS 响应 |
 
 当前这条链路已经验证通过。GitHub/PyPI 解析到的地址可能经过主机代理或本地网络环境
 转换，因此外网结论以 HTTPS 200 响应为准，而不是以解析出来的具体 IP 为准。
