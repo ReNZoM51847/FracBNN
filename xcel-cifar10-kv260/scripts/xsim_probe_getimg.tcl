@@ -1,0 +1,29 @@
+open_vcd getimg_debug.vcd
+log_vcd /apatb_FracNet_T_top/ready
+log_vcd /apatb_FracNet_T_top/AESL_done
+log_vcd /apatb_FracNet_T_top/IMG_RVALID
+log_vcd /apatb_FracNet_T_top/IMG_RREADY
+log_vcd /apatb_FracNet_T_top/IMG_RDATA
+log_vcd /apatb_FracNet_T_top/AESL_inst_FracNet_T/ap_CS_fsm
+log_vcd /apatb_FracNet_T_top/AESL_inst_FracNet_T/IMG_0_RVALID
+log_vcd /apatb_FracNet_T_top/AESL_inst_FracNet_T/IMG_0_RREADY
+log_vcd /apatb_FracNet_T_top/AESL_inst_FracNet_T/IMG_0_RDATA
+log_vcd /apatb_FracNet_T_top/AESL_inst_FracNet_T/msb_fmap_address1
+log_vcd /apatb_FracNet_T_top/AESL_inst_FracNet_T/msb_fmap_ce1
+log_vcd /apatb_FracNet_T_top/AESL_inst_FracNet_T/msb_fmap_we1
+log_vcd /apatb_FracNet_T_top/AESL_inst_FracNet_T/msb_fmap_d1
+log_vcd /apatb_FracNet_T_top/AESL_inst_FracNet_T/msb_fmap_1_address1
+log_vcd /apatb_FracNet_T_top/AESL_inst_FracNet_T/msb_fmap_1_ce1
+log_vcd /apatb_FracNet_T_top/AESL_inst_FracNet_T/msb_fmap_1_we1
+log_vcd /apatb_FracNet_T_top/AESL_inst_FracNet_T/msb_fmap_1_d1
+log_vcd /apatb_FracNet_T_top/AESL_inst_FracNet_T/msb_fmap_2_address1
+log_vcd /apatb_FracNet_T_top/AESL_inst_FracNet_T/msb_fmap_2_ce1
+log_vcd /apatb_FracNet_T_top/AESL_inst_FracNet_T/msb_fmap_2_we1
+log_vcd /apatb_FracNet_T_top/AESL_inst_FracNet_T/msb_fmap_2_d1
+log_vcd /apatb_FracNet_T_top/AESL_inst_FracNet_T/grp_pg_conv_bn_loop_fu_957_ap_start
+log_vcd /apatb_FracNet_T_top/AESL_inst_FracNet_T/grp_pg_conv_bn_loop_fu_957_packed_fmap_0_address0
+log_vcd /apatb_FracNet_T_top/AESL_inst_FracNet_T/grp_pg_conv_bn_loop_fu_957_packed_fmap_0_ce0
+log_vcd /apatb_FracNet_T_top/AESL_inst_FracNet_T/msb_fmap_q0
+run all
+close_vcd
+quit

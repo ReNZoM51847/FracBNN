@@ -1,0 +1,32 @@
+open_vcd popcount_debug.vcd
+
+log_vcd /apatb_FracNet_T_top/AESL_inst_FracNet_T/ap_CS_fsm
+
+log_vcd /apatb_FracNet_T_top/AESL_inst_FracNet_T/grp_pg_conv_bn_loop_fu_957/conv_pool_0_0_address0
+log_vcd /apatb_FracNet_T_top/AESL_inst_FracNet_T/grp_pg_conv_bn_loop_fu_957/conv_pool_0_0_ce0
+log_vcd /apatb_FracNet_T_top/AESL_inst_FracNet_T/grp_pg_conv_bn_loop_fu_957/conv_pool_0_0_we0
+log_vcd /apatb_FracNet_T_top/AESL_inst_FracNet_T/grp_pg_conv_bn_loop_fu_957/conv_pool_0_0_d0
+log_vcd /apatb_FracNet_T_top/AESL_inst_FracNet_T/grp_pg_conv_bn_loop_fu_957/conv_pool_0_0_q0
+
+set tile /apatb_FracNet_T_top/AESL_inst_FracNet_T/grp_pg_conv_bn_loop_fu_957/grp_pg_conv3x3_tile_fu_1115/grp_binary_conv3x3_tile_fu_206/grp_binary_conv3x3_tile_Pipeline_Loop_Tile_VITIS_LOOP_159_3_fu_1056
+log_vcd $tile/ap_CS_fsm
+log_vcd $tile/input_channel
+log_vcd $tile/output_bank
+log_vcd $tile/comparator_bank
+log_vcd $tile/switch_on
+log_vcd $tile/conv_pool_0_0_address0
+log_vcd $tile/conv_pool_0_0_ce0
+log_vcd $tile/conv_pool_0_0_we0
+log_vcd $tile/conv_pool_0_0_d0
+log_vcd $tile/conv_pool_0_0_q0
+log_vcd $tile/add_ln199_fu_16036_p2
+log_vcd $tile/empty_283_reg_18364_pp0_iter11_reg
+log_vcd $tile/mismatch_count_reg_19457
+log_vcd $tile/p_0_0_01781375_fu_644
+log_vcd $tile/weight_buf_reload
+log_vcd $tile/mismatch_count_popcount64_bb_fu_4197_ap_ce
+log_vcd $tile/mismatch_count_popcount64_bb_fu_4197_ap_return
+
+run all
+close_vcd
+quit

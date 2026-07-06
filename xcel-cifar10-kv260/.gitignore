@@ -1,0 +1,25 @@
+# Vitis HLS and Vivado generated outputs
+/build/
+/artifacts/
+/logs/
+!/logs/
+!/logs/board/
+!/logs/board/*.log
+
+# Local tool noise
+/*.log
+/*.jou
+/*.str
+/.Xil/
+
+# Large local CIFAR-10 simulation inputs are documented in README and can be
+# restored from the original xcel-cifar10/source/bin copies when needed.
+/data/cifar10/*.bin
+
+# Board deployment bundles are regenerated from artifacts by scripts.
+/deploy/kv260_*/*.bit
+/deploy/kv260_*/*.bit.bin
+/deploy/kv260_*/*.hwh
+/deploy/kv260_*/*.xsa
+/deploy/kv260_*/*.manifest.txt
+/deploy/kv260_*/__pycache__/

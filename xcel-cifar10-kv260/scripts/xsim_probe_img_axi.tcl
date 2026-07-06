@@ -1,0 +1,20 @@
+open_vcd img_axi_debug.vcd
+log_vcd /apatb_FracNet_T_top/ready
+log_vcd /apatb_FracNet_T_top/AESL_done
+log_vcd /apatb_FracNet_T_top/IMG_ARVALID
+log_vcd /apatb_FracNet_T_top/IMG_ARREADY
+log_vcd /apatb_FracNet_T_top/IMG_ARADDR
+log_vcd /apatb_FracNet_T_top/IMG_ARLEN
+log_vcd /apatb_FracNet_T_top/IMG_RVALID
+log_vcd /apatb_FracNet_T_top/IMG_RREADY
+log_vcd /apatb_FracNet_T_top/IMG_RDATA
+log_vcd /apatb_FracNet_T_top/IMG_RLAST
+log_vcd /apatb_FracNet_T_top/AESL_AXI_MASTER_IMG/current_AR_req_transaction
+log_vcd /apatb_FracNet_T_top/AESL_AXI_MASTER_IMG/FIFO_AR_req_transaction_tmp
+log_vcd /apatb_FracNet_T_top/AESL_AXI_MASTER_IMG/rd_processing_addr
+log_vcd /apatb_FracNet_T_top/AESL_AXI_MASTER_IMG/IMG_mem_0[0]
+log_vcd /apatb_FracNet_T_top/AESL_AXI_MASTER_IMG/IMG_mem_1[0]
+log_vcd /apatb_FracNet_T_top/AESL_AXI_MASTER_IMG/IMG_mem_2[0]
+run all
+close_vcd
+quit

@@ -1,0 +1,339 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version      : Vivado v.2024.2 (lin64) Build 5239630 Fri Nov 08 22:34:34 MST 2024
+| Date              : Mon Jul  6 17:14:09 2026
+| Host              : renzom running 64-bit Red Hat Enterprise Linux release 9.8 (Plow)
+| Command           : report_timing_summary -delay_type min_max -file /path/to/FracBNN/xcel-cifar10-kv260/artifacts/vivado_kv260_impl_refine/final_bit_timing_summary.rpt
+| Design            : design_1_wrapper
+| Device            : xck26-sfvc784
+| Speed File        : -2LV  PRODUCTION 1.30 05-15-2022
+| Design State      : Physopt postRoute
+| Temperature Grade : C
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Summary Report
+
+------------------------------------------------------------------------------------------------
+| Timer Settings
+| --------------
+------------------------------------------------------------------------------------------------
+
+  Enable Multi Corner Analysis               :  Yes
+  Enable Pessimism Removal                   :  Yes
+  Pessimism Removal Resolution               :  Nearest Common Node
+  Enable Input Delay Default Clock           :  No
+  Enable Preset / Clear Arcs                 :  No
+  Disable Flight Delays                      :  No
+  Ignore I/O Paths                           :  No
+  Timing Early Launch at Borrowing Latches   :  No
+  Borrow Time for Max Delay Exceptions       :  Yes
+  Merge Timing Exceptions                    :  Yes
+  Inter-SLR Compensation                     :  Conservative
+
+  Corner  Analyze    Analyze    
+  Name    Max Paths  Min Paths  
+  ------  ---------  ---------  
+  Slow    Yes        Yes        
+  Fast    Yes        Yes        
+
+
+------------------------------------------------------------------------------------------------
+| Report Methodology
+| ------------------
+------------------------------------------------------------------------------------------------
+
+No report available as report_methodology has not been run prior. Run report_methodology on the current design for the summary of methodology violations.
+
+
+
+check_timing report
+
+Table of Contents
+-----------------
+1. checking no_clock (0)
+2. checking constant_clock (0)
+3. checking pulse_width_clock (0)
+4. checking unconstrained_internal_endpoints (0)
+5. checking no_input_delay (0)
+6. checking no_output_delay (0)
+7. checking multiple_clock (0)
+8. checking generated_clocks (0)
+9. checking loops (0)
+10. checking partial_input_delay (0)
+11. checking partial_output_delay (0)
+12. checking latch_loops (0)
+
+1. checking no_clock (0)
+------------------------
+ There are 0 register/latch pins with no clock.
+
+
+2. checking constant_clock (0)
+------------------------------
+ There are 0 register/latch pins with constant_clock.
+
+
+3. checking pulse_width_clock (0)
+---------------------------------
+ There are 0 register/latch pins which need pulse_width check
+
+
+4. checking unconstrained_internal_endpoints (0)
+------------------------------------------------
+ There are 0 pins that are not constrained for maximum delay.
+
+ There are 0 pins that are not constrained for maximum delay due to constant clock.
+
+
+5. checking no_input_delay (0)
+------------------------------
+ There are 0 input ports with no input delay specified.
+
+ There are 0 input ports with no input delay but user has a false path constraint.
+
+
+6. checking no_output_delay (0)
+-------------------------------
+ There are 0 ports with no output delay specified.
+
+ There are 0 ports with no output delay but user has a false path constraint
+
+ There are 0 ports with no output delay but with a timing clock defined on it or propagating through it
+
+
+7. checking multiple_clock (0)
+------------------------------
+ There are 0 register/latch pins with multiple clocks.
+
+
+8. checking generated_clocks (0)
+--------------------------------
+ There are 0 generated clocks that are not connected to a clock source.
+
+
+9. checking loops (0)
+---------------------
+ There are 0 combinational loops in the design.
+
+
+10. checking partial_input_delay (0)
+------------------------------------
+ There are 0 input ports with partial input delay specified.
+
+
+11. checking partial_output_delay (0)
+-------------------------------------
+ There are 0 ports with partial output delay specified.
+
+
+12. checking latch_loops (0)
+----------------------------
+ There are 0 combinational latch loops in the design through latch input
+
+
+
+------------------------------------------------------------------------------------------------
+| Design Timing Summary
+| ---------------------
+------------------------------------------------------------------------------------------------
+
+    WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
+    -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
+      0.000        0.000                      0               129279        0.010        0.000                      0               129279        0.500        0.000                       0                 42237  
+
+
+All user specified timing constraints are met.
+
+
+------------------------------------------------------------------------------------------------
+| Clock Summary
+| -------------
+------------------------------------------------------------------------------------------------
+
+Clock     Waveform(ns)         Period(ns)      Frequency(MHz)
+-----     ------------         ----------      --------------
+clk_pl_0  {0.000 2.000}        4.000           250.000         
+clk_pl_1  {0.000 5.000}        10.000          100.000         
+
+
+------------------------------------------------------------------------------------------------
+| Intra Clock Table
+| -----------------
+------------------------------------------------------------------------------------------------
+
+Clock             WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
+-----             -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
+clk_pl_0            0.000        0.000                      0               129279        0.010        0.000                      0               129279        0.500        0.000                       0                 42237  
+
+
+------------------------------------------------------------------------------------------------
+| Inter Clock Table
+| -----------------
+------------------------------------------------------------------------------------------------
+
+From Clock    To Clock          WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints  
+----------    --------          -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------  
+
+
+------------------------------------------------------------------------------------------------
+| Other Path Groups Table
+| -----------------------
+------------------------------------------------------------------------------------------------
+
+Path Group    From Clock    To Clock          WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints  
+----------    ----------    --------          -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------  
+
+
+------------------------------------------------------------------------------------------------
+| Timing Details
+| --------------
+------------------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  clk_pl_0
+  To Clock:  clk_pl_0
+
+Setup :            0  Failing Endpoints,  Worst Slack        0.000ns,  Total Violation        0.000ns
+Hold  :            0  Failing Endpoints,  Worst Slack        0.010ns,  Total Violation        0.000ns
+PW    :            0  Failing Endpoints,  Worst Slack        0.500ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             0.000ns  (required time - arrival time)
+  Source:                 design_1_i/FracNet_T_0/inst/grp_pg_conv_bn_loop_fu_957/grp_pg_conv3x3_tile_fu_1125/grp_binary_conv3x3_tile_fu_214/grp_binary_conv3x3_tile_Pipeline_LOOP_WEIGHT_LOAD_VITIS_LOOP_147_1_VITIS_LOOP_148_2_fu_860/conv_weight_all_U/q0_reg_6/CLKARDCLK
+                            (rising edge-triggered cell RAMB36E2 clocked by clk_pl_0  {rise@0.000ns fall@2.000ns period=4.000ns})
+  Destination:            design_1_i/FracNet_T_0/inst/grp_pg_conv_bn_loop_fu_957/grp_pg_conv3x3_tile_fu_1125/grp_binary_conv3x3_tile_fu_214/grp_binary_conv3x3_tile_Pipeline_LOOP_WEIGHT_LOAD_VITIS_LOOP_147_1_VITIS_LOOP_148_2_fu_860/weight_buf_33_fu_552_reg[24]/D
+                            (rising edge-triggered cell FDRE clocked by clk_pl_0  {rise@0.000ns fall@2.000ns period=4.000ns})
+  Path Group:             clk_pl_0
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            4.000ns  (clk_pl_0 rise@4.000ns - clk_pl_0 rise@0.000ns)
+  Data Path Delay:        3.766ns  (logic 1.427ns (37.894%)  route 2.339ns (62.106%))
+  Logic Levels:           0  
+  Clock Path Skew:        -0.157ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    3.005ns = ( 7.005 - 4.000 ) 
+    Source Clock Delay      (SCD):    3.347ns
+    Clock Pessimism Removal (CPR):    0.185ns
+  Clock Uncertainty:      0.122ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.233ns
+    Phase Error              (PE):    0.000ns
+  Clock Net Delay (Source):      3.080ns (routing 1.584ns, distribution 1.496ns)
+  Clock Net Delay (Destination): 2.789ns (routing 1.450ns, distribution 1.339ns)
+
+    Pin Reuse     Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  ---------------------------------------------------------------------------------    -------------------
+                                       (clock clk_pl_0 rise edge)
+                                                                    0.000     0.000 r  
+                  PS8_X0Y0             PS8                          0.000     0.000 r  design_1_i/zynq_ultra_ps_e_0/inst/PS8_i/PLCLK[0]
+                                       net (fo=1, routed)           0.229     0.229    design_1_i/zynq_ultra_ps_e_0/inst/pl_clk_unbuffered[0]
+                  BUFG_PS_X0Y80                                                     r  design_1_i/zynq_ultra_ps_e_0/inst/buffer_pl_clk_0.PL_CLK_0_BUFG/I
+                  BUFG_PS_X0Y80        BUFG_PS (Prop_BUFG_PS_I_O)
+                                                                    0.038     0.267 r  design_1_i/zynq_ultra_ps_e_0/inst/buffer_pl_clk_0.PL_CLK_0_BUFG/O
+                  X1Y1 (CLOCK_ROOT)    net (fo=42784, routed)       3.080     3.347    design_1_i/FracNet_T_0/inst/grp_pg_conv_bn_loop_fu_957/grp_pg_conv3x3_tile_fu_1125/grp_binary_conv3x3_tile_fu_214/grp_binary_conv3x3_tile_Pipeline_LOOP_WEIGHT_LOAD_VITIS_LOOP_147_1_VITIS_LOOP_148_2_fu_860/conv_weight_all_U/ap_clk
+                  RAMB36_X0Y31         RAMB36E2                                     r  design_1_i/FracNet_T_0/inst/grp_pg_conv_bn_loop_fu_957/grp_pg_conv3x3_tile_fu_1125/grp_binary_conv3x3_tile_fu_214/grp_binary_conv3x3_tile_Pipeline_LOOP_WEIGHT_LOAD_VITIS_LOOP_147_1_VITIS_LOOP_148_2_fu_860/conv_weight_all_U/q0_reg_6/CLKARDCLK
+  ---------------------------------------------------------------------------------    -------------------
+    Placement     RAMB36_X0Y31         RAMB36E2 (Prop_RAMB36E2_RAMB36_CLKARDCLK_DOUTADOUT[0])
+                                                                    1.427     4.774 r  design_1_i/FracNet_T_0/inst/grp_pg_conv_bn_loop_fu_957/grp_pg_conv3x3_tile_fu_1125/grp_binary_conv3x3_tile_fu_214/grp_binary_conv3x3_tile_Pipeline_LOOP_WEIGHT_LOAD_VITIS_LOOP_147_1_VITIS_LOOP_148_2_fu_860/conv_weight_all_U/q0_reg_6/DOUTADOUT[0]
+                                       net (fo=144, routed)         2.339     7.112    design_1_i/FracNet_T_0/inst/grp_pg_conv_bn_loop_fu_957/grp_pg_conv3x3_tile_fu_1125/grp_binary_conv3x3_tile_fu_214/grp_binary_conv3x3_tile_Pipeline_LOOP_WEIGHT_LOAD_VITIS_LOOP_147_1_VITIS_LOOP_148_2_fu_860/q0_reg[24]
+    Placement     SLICE_X51Y48         FDRE                                         r  design_1_i/FracNet_T_0/inst/grp_pg_conv_bn_loop_fu_957/grp_pg_conv3x3_tile_fu_1125/grp_binary_conv3x3_tile_fu_214/grp_binary_conv3x3_tile_Pipeline_LOOP_WEIGHT_LOAD_VITIS_LOOP_147_1_VITIS_LOOP_148_2_fu_860/weight_buf_33_fu_552_reg[24]/D
+  ---------------------------------------------------------------------------------    -------------------
+
+                                       (clock clk_pl_0 rise edge)
+                                                                    4.000     4.000 r  
+                  PS8_X0Y0             PS8                          0.000     4.000 r  design_1_i/zynq_ultra_ps_e_0/inst/PS8_i/PLCLK[0]
+                                       net (fo=1, routed)           0.181     4.181    design_1_i/zynq_ultra_ps_e_0/inst/pl_clk_unbuffered[0]
+                  BUFG_PS_X0Y80                                                     r  design_1_i/zynq_ultra_ps_e_0/inst/buffer_pl_clk_0.PL_CLK_0_BUFG/I
+                  BUFG_PS_X0Y80        BUFG_PS (Prop_BUFG_PS_I_O)
+                                                                    0.035     4.216 r  design_1_i/zynq_ultra_ps_e_0/inst/buffer_pl_clk_0.PL_CLK_0_BUFG/O
+                  X1Y1 (CLOCK_ROOT)    net (fo=42784, routed)       2.789     7.005    design_1_i/FracNet_T_0/inst/grp_pg_conv_bn_loop_fu_957/grp_pg_conv3x3_tile_fu_1125/grp_binary_conv3x3_tile_fu_214/grp_binary_conv3x3_tile_Pipeline_LOOP_WEIGHT_LOAD_VITIS_LOOP_147_1_VITIS_LOOP_148_2_fu_860/ap_clk
+                  SLICE_X51Y48         FDRE                                         r  design_1_i/FracNet_T_0/inst/grp_pg_conv_bn_loop_fu_957/grp_pg_conv3x3_tile_fu_1125/grp_binary_conv3x3_tile_fu_214/grp_binary_conv3x3_tile_Pipeline_LOOP_WEIGHT_LOAD_VITIS_LOOP_147_1_VITIS_LOOP_148_2_fu_860/weight_buf_33_fu_552_reg[24]/C
+                                       clock pessimism              0.185     7.190    
+                                       clock uncertainty           -0.122     7.068    
+                  SLICE_X51Y48         FDRE (Setup_HFF_SLICEL_C_D)
+                                                                    0.044     7.112    design_1_i/FracNet_T_0/inst/grp_pg_conv_bn_loop_fu_957/grp_pg_conv3x3_tile_fu_1125/grp_binary_conv3x3_tile_fu_214/grp_binary_conv3x3_tile_Pipeline_LOOP_WEIGHT_LOAD_VITIS_LOOP_147_1_VITIS_LOOP_148_2_fu_860/weight_buf_33_fu_552_reg[24]
+  ---------------------------------------------------------------------------------
+                                       required time                          7.112    
+                                       arrival time                          -7.112    
+  ---------------------------------------------------------------------------------
+                                       slack                                  0.000    
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             0.010ns  (arrival time - required time)
+  Source:                 design_1_i/FracNet_T_0/inst/grp_pg_conv_bn_loop_fu_957/grp_bn_relu_shortcut_fu_1378/grp_bn_relu_shortcut_Pipeline_LOOP_BN_RELU_SC_VITIS_LOOP_212_1_fu_1306/select_ln237_35_reg_33034_reg[12]/C
+                            (rising edge-triggered cell FDSE clocked by clk_pl_0  {rise@0.000ns fall@2.000ns period=4.000ns})
+  Destination:            design_1_i/FracNet_T_0/inst/grp_pg_conv_bn_loop_fu_957/grp_bn_relu_shortcut_fu_1378/grp_bn_relu_shortcut_Pipeline_LOOP_BN_RELU_SC_VITIS_LOOP_212_1_fu_1306/select_ln237_35_reg_33034_pp0_iter13_reg_reg[12]/D
+                            (rising edge-triggered cell FDRE clocked by clk_pl_0  {rise@0.000ns fall@2.000ns period=4.000ns})
+  Path Group:             clk_pl_0
+  Path Type:              Hold (Min at Slow Process Corner)
+  Requirement:            0.000ns  (clk_pl_0 rise@0.000ns - clk_pl_0 rise@0.000ns)
+  Data Path Delay:        0.226ns  (logic 0.114ns (50.443%)  route 0.112ns (49.558%))
+  Logic Levels:           0  
+  Clock Path Skew:        0.114ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    3.235ns
+    Source Clock Delay      (SCD):    2.881ns
+    Clock Pessimism Removal (CPR):    0.240ns
+  Clock Net Delay (Source):      2.665ns (routing 1.450ns, distribution 1.215ns)
+  Clock Net Delay (Destination): 2.968ns (routing 1.584ns, distribution 1.384ns)
+
+    Pin Reuse     Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  ---------------------------------------------------------------------------------    -------------------
+                                       (clock clk_pl_0 rise edge)
+                                                                    0.000     0.000 r  
+                  PS8_X0Y0             PS8                          0.000     0.000 r  design_1_i/zynq_ultra_ps_e_0/inst/PS8_i/PLCLK[0]
+                                       net (fo=1, routed)           0.181     0.181    design_1_i/zynq_ultra_ps_e_0/inst/pl_clk_unbuffered[0]
+                  BUFG_PS_X0Y80                                                     r  design_1_i/zynq_ultra_ps_e_0/inst/buffer_pl_clk_0.PL_CLK_0_BUFG/I
+                  BUFG_PS_X0Y80        BUFG_PS (Prop_BUFG_PS_I_O)
+                                                                    0.035     0.216 r  design_1_i/zynq_ultra_ps_e_0/inst/buffer_pl_clk_0.PL_CLK_0_BUFG/O
+                  X1Y1 (CLOCK_ROOT)    net (fo=42784, routed)       2.665     2.881    design_1_i/FracNet_T_0/inst/grp_pg_conv_bn_loop_fu_957/grp_bn_relu_shortcut_fu_1378/grp_bn_relu_shortcut_Pipeline_LOOP_BN_RELU_SC_VITIS_LOOP_212_1_fu_1306/ap_clk
+                  SLICE_X39Y163        FDSE                                         r  design_1_i/FracNet_T_0/inst/grp_pg_conv_bn_loop_fu_957/grp_bn_relu_shortcut_fu_1378/grp_bn_relu_shortcut_Pipeline_LOOP_BN_RELU_SC_VITIS_LOOP_212_1_fu_1306/select_ln237_35_reg_33034_reg[12]/C
+  ---------------------------------------------------------------------------------    -------------------
+    Routing       SLICE_X39Y163        FDSE (Prop_AFF2_SLICEL_C_Q)
+                                                                    0.114     2.995 r  design_1_i/FracNet_T_0/inst/grp_pg_conv_bn_loop_fu_957/grp_bn_relu_shortcut_fu_1378/grp_bn_relu_shortcut_Pipeline_LOOP_BN_RELU_SC_VITIS_LOOP_212_1_fu_1306/select_ln237_35_reg_33034_reg[12]/Q
+                                       net (fo=1, routed)           0.112     3.107    design_1_i/FracNet_T_0/inst/grp_pg_conv_bn_loop_fu_957/grp_bn_relu_shortcut_fu_1378/grp_bn_relu_shortcut_Pipeline_LOOP_BN_RELU_SC_VITIS_LOOP_212_1_fu_1306/select_ln237_35_reg_33034[12]
+    Routing       SLICE_X40Y163        FDRE                                         r  design_1_i/FracNet_T_0/inst/grp_pg_conv_bn_loop_fu_957/grp_bn_relu_shortcut_fu_1378/grp_bn_relu_shortcut_Pipeline_LOOP_BN_RELU_SC_VITIS_LOOP_212_1_fu_1306/select_ln237_35_reg_33034_pp0_iter13_reg_reg[12]/D
+  ---------------------------------------------------------------------------------    -------------------
+
+                                       (clock clk_pl_0 rise edge)
+                                                                    0.000     0.000 r  
+                  PS8_X0Y0             PS8                          0.000     0.000 r  design_1_i/zynq_ultra_ps_e_0/inst/PS8_i/PLCLK[0]
+                                       net (fo=1, routed)           0.229     0.229    design_1_i/zynq_ultra_ps_e_0/inst/pl_clk_unbuffered[0]
+                  BUFG_PS_X0Y80                                                     r  design_1_i/zynq_ultra_ps_e_0/inst/buffer_pl_clk_0.PL_CLK_0_BUFG/I
+                  BUFG_PS_X0Y80        BUFG_PS (Prop_BUFG_PS_I_O)
+                                                                    0.038     0.267 r  design_1_i/zynq_ultra_ps_e_0/inst/buffer_pl_clk_0.PL_CLK_0_BUFG/O
+                  X1Y1 (CLOCK_ROOT)    net (fo=42784, routed)       2.968     3.235    design_1_i/FracNet_T_0/inst/grp_pg_conv_bn_loop_fu_957/grp_bn_relu_shortcut_fu_1378/grp_bn_relu_shortcut_Pipeline_LOOP_BN_RELU_SC_VITIS_LOOP_212_1_fu_1306/ap_clk
+                  SLICE_X40Y163        FDRE                                         r  design_1_i/FracNet_T_0/inst/grp_pg_conv_bn_loop_fu_957/grp_bn_relu_shortcut_fu_1378/grp_bn_relu_shortcut_Pipeline_LOOP_BN_RELU_SC_VITIS_LOOP_212_1_fu_1306/select_ln237_35_reg_33034_pp0_iter13_reg_reg[12]/C
+                                       clock pessimism             -0.240     2.995    
+                  SLICE_X40Y163        FDRE (Hold_EFF2_SLICEM_C_D)
+                                                                    0.102     3.097    design_1_i/FracNet_T_0/inst/grp_pg_conv_bn_loop_fu_957/grp_bn_relu_shortcut_fu_1378/grp_bn_relu_shortcut_Pipeline_LOOP_BN_RELU_SC_VITIS_LOOP_212_1_fu_1306/select_ln237_35_reg_33034_pp0_iter13_reg_reg[12]
+  ---------------------------------------------------------------------------------
+                                       required time                         -3.097    
+                                       arrival time                           3.107    
+  ---------------------------------------------------------------------------------
+                                       slack                                  0.010    
+
+
+
+
+
+Pulse Width Checks
+--------------------------------------------------------------------------------------
+Clock Name:         clk_pl_0
+Waveform(ns):       { 0.000 2.000 }
+Period(ns):         4.000
+Sources:            { design_1_i/zynq_ultra_ps_e_0/inst/PS8_i/PLCLK[0] }
+
+Check Type        Corner  Lib Pin          Reference Pin  Required(ns)  Actual(ns)  Slack(ns)  Location  Pin
+Min Period        n/a     PS8/MAXIGP0ACLK  n/a            3.000         4.000       1.000      PS8_X0Y0  design_1_i/zynq_ultra_ps_e_0/inst/PS8_i/MAXIGP0ACLK
+Low Pulse Width   Slow    PS8/MAXIGP0ACLK  n/a            1.500         2.000       0.500      PS8_X0Y0  design_1_i/zynq_ultra_ps_e_0/inst/PS8_i/MAXIGP0ACLK
+High Pulse Width  Slow    PS8/MAXIGP0ACLK  n/a            1.500         2.000       0.500      PS8_X0Y0  design_1_i/zynq_ultra_ps_e_0/inst/PS8_i/MAXIGP0ACLK
+
+
+
